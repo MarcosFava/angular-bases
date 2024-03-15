@@ -1,3 +1,4 @@
+import { DbzModule } from './dbz/dbz.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
@@ -16,7 +17,7 @@ import { HeroesModule } from './heroes/heroes.module';
     BrowserModule,
     CounterModule,
     HeroesModule,
-    AppRoutingModule
+    DbzModule,
   ],
   providers: [
     provideClientHydration()
